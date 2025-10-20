@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Nicole - Data analyst and Data scientist.</title>
+  <meta name="title" content="Nicole - Data analyst and Data scientist.">
+  <meta name="description" content="This is a personal portfolio html template made by Nicole">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-dark.png" width="150" height="150" alt="Julia home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.svg" width="64" height="24" alt="Julia home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">info@email.com</a>
+
+          <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.linkedin.com/in/nicole-kutswa/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/capcutsmiley?tab=repositories" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="mailto:yourname@example.com" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.jpg" width="560" height="540" alt="Nicole" class="w-100"
+              data-reveal="top">
+
+            <img src="./assets/images/hero-shape.svg" width="203" height="91" alt="7+ Projects Done" class="shape"
+              data-reveal="top" data-reveal-delay="0.25s">
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              I'm a Data Analyst & Data Scientist.
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              Hello! I'm Nicole Kutswa, a data analyst based in Nairobi Kenya. I’m very passionate
+              about the work that I do.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="https://github.com/capcutsmiley?tab=repositories" class="btn btn-primary" target="_blank">See My Projects</a>
+
+              <a href="assets/Kutswa_nicole_resume.pdf" class="btn btn-secondary" target="_blank">Download CV</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">What I Do?</h2>
+
+              <p class="section-text">
+                I turn raw data into meaningful insights that drive smart decisions. As a data analyst with a growing foundation in data science, I specialize in uncovering patterns, simplifying complexity, and presenting findings in clear, actionable ways. I use Excel for quick data exploration, SQL to extract and manipulate large datasets, and Python for in-depth analysis and automation. I also build interactive dashboards that transform complex data into clear visuals, enabling stakeholders to make confident, data-backed decisions.
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Data Mining</p>
+
+                  <span class="span">80 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Data Cleaning</p>
+
+                  <span class="span">100 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Data Analysis</p>
+
+                  <span class="span">100 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Data Visualisation</p>
+
+                  <span class="span">100 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #e3a6b6"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Data Mining</h3>
+
+                <p class="card-text">
+                  I use tools like SQL and Python (Pandas, NumPy) to extract meaningful patterns from large datasets. This helps uncover trends and insights that support data-driven decisions and business strategy.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.png" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">Data Cleaning</h3>
+
+                <p class="card-text">
+                  Using Excel, Python (Pandas), and SQL, I clean and organize messy data by handling missing values, duplicates, and inconsistencies. Clean data ensures my analyses are accurate, reliable, and ready for visualization or modeling.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.png" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">Data Analysis</h3>
+
+                <p class="card-text">
+                  I apply statistical techniques and logical reasoning using Python, Excel, and SQL to uncover patterns, trends, and correlations. My goal is to turn raw data into actionable insights that solve real-world problems.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.png" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">Data Visualisation</h3>
+
+                <p class="card-text">
+                  I create interactive and insightful visuals using Excel charts, Matplotlib, Seaborn, and dashboard tools like Power BI and Tableau. These visuals help simplify complex data and communicate insights clearly to both technical and non-technical audiences.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+              <p class="section-text">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+
+            <a href="https://github.com/capcutsmiley?tab=repositories" class="btn btn-secondary" target="_blank">See All Projects</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Web Design</p>
+
+                  <h3 class="h3 card-title">Snowlake Theme</h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
+                    porta felis euismod semper. Fusce dapibus tellus cursus.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #a07cc5">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-1.png" width="650" height="370" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0">Mobile Design</p>
+
+                  <h3 class="h3 card-title">Budget App</h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
+                    porta felis euismod semper. Fusce dapibus tellus cursus.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/project-2.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">Web Design</p>
+
+                  <h3 class="h3 card-title">Missio Theme</h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta lobortis. Scelerisque
+                    id ligula felis.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #7cb798">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-3.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Mobile Design</p>
+
+                  <h3 class="h3 card-title">Storage App</h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
+                    porta felis euismod semper.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #d16b86">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-4.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+
+              <p class="section-text">
+                I bring rapid solutions to make the life of your corporation easier. Have any questions? Reach out to me from
+                this contact form.
+              </p>
+
+            </div>
+
+            <form action="" class="contact-form" data-reveal="right">
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.linkedin.com/in/nicole-kutswa/" class="social-link" target="_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/capcutsmiley?tab=repositories" class="social-link" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
