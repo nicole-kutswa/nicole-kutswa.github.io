@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ============================================================
+       SEO / META TAGS
+       Replace the title, description, and URLs below with your own.
+       ============================================================ -->
+  <title>Nicole Kutswa — Data Analyst · Data Scientist · SOC Analyst</title>
+  <meta name="description" content="Portfolio of Nicole Kutswa, a data and security analytics consultant working across finance, retail, healthcare, product, and cybersecurity operations.">
+  <meta name="keywords" content="data analyst, data scientist, SOC analyst, cybersecurity, SQL, Python, Power BI, portfolio">
+  <meta name="author" content="Nicole Kutswa">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nicole Kutswa — Data Analyst · Data Scientist · SOC Analyst">
+  <meta property="og:description" content="Portfolio showcasing analytics and security operations work across six industries.">
+  <meta property="og:image" content="assets/images/og-cover.jpg">
+  <meta property="og:url" content="https://yourdomain.com">
+
+  <!-- Favicon: replace /assets/images/favicon.ico with your own icon -->
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+  <!-- Fonts: Manrope (display), IBM Plex Sans (body), IBM Plex Mono (data/labels) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Skip link for keyboard users -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a href="#home" class="navbar__brand">
+        <span class="navbar__mark" aria-hidden="true">NK</span>
+        <span class="navbar__name">Nicole Kutswa</span>
+      </a>
+
+      <ul class="navbar__links" id="navLinks">
+        <li><a href="#home" class="nav-link" data-nav>Home</a></li>
+        <li><a href="#about" class="nav-link" data-nav>About</a></li>
+        <li><a href="#projects" class="nav-link" data-nav>Projects</a></li>
+        <li><a href="#contact" class="nav-link" data-nav>Contact</a></li>
+      </ul>
+
+      <div class="navbar__actions">
+        <!-- Replace href values with your real profile URLs -->
+        <a href="https://www.linkedin.com/in/nicole-kutswa/" class="icon-link" aria-label="LinkedIn profile" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+        <a href="https://github.com/nicole-kutswa" class="icon-link" aria-label="GitHub profile" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.07.78 2.16v3.2c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+        </a>
+      </div>
+
+      <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section id="home" class="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__inner container">
+        <p class="eyebrow">Data & Security Analytics Consultant</p>
+        <h1 class="hero__headline">Data Analyst <span class="hero__divider">|</span> Data Scientist <span class="hero__divider">|</span> SOC Analyst</h1>
+        <p class="hero__intro">
+          I help organizations make sense of their data and defend the systems that produce it by
+          building the dashboards, models, and monitoring workflows that turn raw information
+          into decisions people can act on with confidence.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary" data-scroll>View Projects</a>
+          <a href="#contact" class="btn btn--outline" data-scroll>Contact Me</a>
+        </div>
+      </div>
+      <!-- Signature element: quiet animated signal line, reduced-motion safe -->
+      <svg class="hero__signal" viewBox="0 0 1200 80" preserveAspectRatio="none" aria-hidden="true">
+        <path id="signalPath" d="M0,40 L120,40 L150,15 L180,65 L210,40 L340,40 L370,10 L400,70 L430,40 L1200,40" />
+      </svg>
+    </section>
+
+    <!-- ============================================================
+         ABOUT
+         ============================================================ -->
+    <section id="about" class="about">
+      <div class="container about__grid">
+        <div class="about__media">
+          <!-- Replace with your professional headshot: recommended 480x600px, JPG or WebP -->
+          <img class="about__photo" src="assets/images/profile-placeholder.PNG" alt="Professional headshot of Nicole Kutswa" width="480" height="600">
+        </div>
+
+        <div class="about__content">
+          <p class="eyebrow">About</p>
+          <h2 class="section-title">Professional summary</h2>
+          <p>
+            I work at the intersection of analytics and security operations.
+            I've learnt and built reporting pipelines for retail and finance teams, modeled churn and
+            credit risk, and spent time on the monitoring side triaging alerts and correlating logs
+            for security operations center. That combination shapes how I approach a new dataset,
+            I want to know not just what the numbers show, but how the system producing them could fail
+            or be misused.
+          </p>
+          <p>
+            Most of my work lives in SQL and Python, with Power BI or Tableau for the reporting layer.
+            I've spent time inside SIEM tooling as well, which has made me more careful about data
+            lineage and access than I might otherwise be. I like projects with a clear business question
+            attached, a churn number a retention team can act on, a risk score a lender can defend, an
+            alert threshold a SOC team can actually live with.
+          </p>
+
+          <div class="about__actions">
+            <!-- Replace with the path to your actual CV file -->
+            <a href="assets/cv/jordan-cole-cv.pdf" class="btn btn--primary btn--print" download>
+              View CV
+            </a>
+            <a href="https://www.linkedin.com/in/nicole-kutswa/" class="btn btn--outline" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://github.com/nicole-kutswa" class="btn btn--outline" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.07.78 2.16v3.2c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROJECTS
+         ============================================================ -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <p class="eyebrow">Selected work</p>
+        <h2 class="section-title">Projects</h2>
+        <p class="projects__intro">
+          Organized by industry. Each project reflects a real business question, the constraints
+          around the data, and what was delivered at the end.
+        </p>
+
+        <!-- Category tabs -->
+        <div class="tabs" role="tablist" aria-label="Project categories">
+          <button class="tab is-active" role="tab" aria-selected="true" aria-controls="panel-finance" id="tab-finance" data-tab="finance">Finance &amp; Banking</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="panel-retail" id="tab-retail" data-tab="retail">Retail</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="panel-healthcare" id="tab-healthcare" data-tab="healthcare">Healthcare</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="panel-product" id="tab-product" data-tab="product">Product Management</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="panel-soc" id="tab-soc" data-tab="soc">Cybersecurity (SOC)</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="panel-supply" id="tab-supply" data-tab="supply">Supply Chain</button>
+        </div>
+
+        <!-- Finance & Banking -->
+        <div class="tab-panel is-active" id="panel-finance" role="tabpanel" aria-labelledby="tab-finance" data-panel="finance">
+          <div class="card-grid">
+            <article class="card">
+              <h3 class="card__title">Credit Risk &amp; Loan Default Analysis</h3>
+              <p class="card__desc">Built a scoring model to flag loan applications with elevated default risk before approval.</p>
+              <p class="card__label">Business problem</p>
+              <p class="card__text">The lending team was approving loans on limited historical context, resulting in an unpredictable default rate quarter to quarter.</p>
+              <p class="card__label">Tools</p>
+              <ul class="tag-list">
+                <li class="tag">Python</li><li class="tag">SQL</li><li class="tag">Power BI</li>
+              </ul>
+              <p class="card__label">Deliverables</p>
+              <ul class="tag-list">
+                <li class="tag tag--outline">Risk scoring model</li><li class="tag tag--outline">Dashboard</li><li class="tag tag--outline">Report</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Transaction Anomaly Review</h3>
+              <p class="card__desc">Reviewed transaction logs to identify unusual patterns worth escalating to the fraud team.</p>
+              <p class="card__label">Business problem</p>
+              <p class="card__text">Manual review of flagged transactions was falling behind volume, and thresholds hadn't been revisited in over a year.</p>
+              <p class="card__label">Tools</p>
+              <ul class="tag-list">
+                <li class="tag">SQL</li><li class="tag">Python</li>
+              </ul>
+              <p class="card__label">Deliverables</p>
+              <ul class="tag-list">
+                <li class="tag tag--outline">Anomaly rules</li><li class="tag tag--outline">Summary report</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <!-- Retail -->
+        <div class="tab-panel" id="panel-retail" role="tabpanel" aria-labelledby="tab-retail" data-panel="retail" hidden>
+          <div class="card-grid">
+            <article class="card">
+              <h3 class="card__title">Customer Churn Analysis</h3>
+              <p class="card__desc">Identified the customer segments most likely to cancel and what typically preceded it.</p>
+              <p class="card__label">Business problem</p>
+              <p class="card__text">The retention team had no early signal for at-risk customers and was mostly reacting after cancellations happened.</p>
+              <p class="card__label">Tools</p>
+              <ul class="tag-list">
+                <li class="tag">Python</li><li class="tag">SQL</li><li class="tag">Tableau</li>
+              </ul>
+              <p class="card__label">Deliverables</p>
+              <ul class="tag-list">
+                <li class="tag tag--outline">Churn model</li><li class="tag tag--outline">Dashboard</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Seasonal Demand Forecasting</h3>
+              <p class="card__desc">Forecasted inventory needs across categories ahead of peak seasonal demand.</p>
+              <p class="card__label">Business problem</p>
+              <p class="card__text">Overstock and stockouts were both happening in the same quarter, in different regions, for the same product lines.</p>
+              <p class="card__label">Tools</p>
+              <ul class="tag-list">
+                <li class="tag">Python</li><li class="tag">Power BI</li>
+              </ul>
+              <p class="card__label">Deliverables</p>
+              <ul class="tag-list">
+                <li class="tag tag--outline">Forecast model</li><li class="tag tag--outline">Regional dashboard</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <!-- Healthcare -->
+        <div class="tab-panel" id="panel-healthcare" role="tabpanel" aria-labelledby="tab-healthcare" data-panel="healthcare" hidden>
+          <div class="card-grid">
+            <article class="card">
+              <h3 class="card__title">Patient Readmission Risk Model</h3>
+              <p class="card__desc">Modeled the likelihood of 30-day readmission using intake and discharge records.</p>
+              <p class="card__label">Business problem</p>
+              <p class="card__text">Readmission rates affected reimbursement, and the care team had no ranked list of patients to follow up with first.</p>
+              <p class="card__label">Tools</p>
+              <ul class="tag-list">
+                <li class="tag">Python</li><li class="tag">SQL</li>
+              </ul>
+              <p class="card__label">Deliverables</p>
+              <ul class="tag-list">
+                <li class="tag tag--outline">Risk model</li><li class="tag tag--outline">Follow-up list</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Clinical Resource Utilization Dashboard</h3>
+              <p class="card__desc">Tracked bed occupancy and staff allocation across departments in one view.</p>
+              <p class="card__label">Business problem</p>
+              <p class="card__text">Department leads were pulling utilization numbers from separate systems that rarely agreed with each other.</p>
+              <p class="card__label">Tools</p>
+              <ul class="tag-list">
+                <li class="tag">Power BI</li><li class="tag">SQL</li>
+              </ul>
+              <p class="card__label">Deliverables</p>
+              <ul class="tag-list">
+                <li class="tag tag--outline">Live dashboard</li><li class="tag tag--outline">Weekly report</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <!-- Product Management -->
+        <div class="tab-panel" id="panel-product" role="tabpanel" aria-labelledby="tab-product" data-panel="product" hidden>
+          <div class="card-grid">
+            <article class="card">
+              <h3 class="card__title">Feature Adoption &amp; Retention Tracking</h3>
+              <p class="card__desc">Set up cohort tracking to see which new features actually changed retention.</p>
+              <p class="card__label">Business problem</p>
+              <p class="card__text">The product team was shipping features without a clear read on whether they moved any retention metric.</p>
+              <p class="card__label">Tools</p>
+              <ul class="tag-list">
+                <li class="tag">SQL</li><li class="tag">Python</li>
+              </ul>
+              <p class="card__label">Deliverables</p>
+              <ul class="tag-list">
+                <li class="tag tag--outline">Cohort dashboard</li><li class="tag tag--outline">Adoption report</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Onboarding Flow A/B Test</h3>
+              <p class="card__desc">Designed and analyzed a test comparing two onboarding sequences.</p>
+              <p class="card__label">Business problem</p>
+              <p class="card__text">Drop-off in the first session was high, and the team had two competing ideas for fixing it with no data to settle it.</p>
+              <p class="card__label">Tools</p>
+              <ul class="tag-list">
+                <li class="tag">Python</li><li class="tag">Statistics</li>
+              </ul>
+              <p class="card__label">Deliverables</p>
+              <ul class="tag-list">
+                <li class="tag tag--outline">Test design</li><li class="tag tag--outline">Results memo</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <!-- Cybersecurity (SOC) -->
+        <div class="tab-panel" id="panel-soc" role="tabpanel" aria-labelledby="tab-soc" data-panel="soc" hidden>
+          <div class="card-grid">
+            <article class="card">
+              <h3 class="card__title">SOC Alert Triage &amp; Log Correlation</h3>
+              <p class="card__desc">Rebuilt triage priority rules to cut down on repetitive low-value alerts.</p>
+              <p class="card__label">Business problem</p>
+              <p class="card__text">Analysts were spending most of a shift on alerts that turned out to be benign, while genuine incidents sat in the queue.</p>
+              <p class="card__label">Tools</p>
+              <ul class="tag-list">
+                <li class="tag">SIEM</li><li class="tag">Splunk</li><li class="tag">SQL</li>
+              </ul>
+              <p class="card__label">Deliverables</p>
+              <ul class="tag-list">
+                <li class="tag tag--outline">Triage rules</li><li class="tag tag--outline">Runbook</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Phishing Campaign Detection Playbook</h3>
+              <p class="card__desc">Documented indicators and response steps for a recurring phishing pattern targeting staff.</p>
+              <p class="card__label">Business problem</p>
+              <p class="card__text">Response to phishing reports varied by analyst, and there was no shared reference for what to check first.</p>
+              <p class="card__label">Tools</p>
+              <ul class="tag-list">
+                <li class="tag">Threat Intel</li><li class="tag">Python</li>
+              </ul>
+              <p class="card__label">Deliverables</p>
+              <ul class="tag-list">
+                <li class="tag tag--outline">Detection playbook</li><li class="tag tag--outline">IOC list</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <!-- Supply Chain -->
+        <div class="tab-panel" id="panel-supply" role="tabpanel" aria-labelledby="tab-supply" data-panel="supply" hidden>
+          <div class="card-grid">
+            <article class="card">
+              <h3 class="card__title">Warehouse-to-Retail Route Optimization</h3>
+              <p class="card__desc">Reworked delivery routing to reduce distance and idle time across regional depots.</p>
+              <p class="card__label">Business problem</p>
+              <p class="card__text">Routes had been set manually years earlier and hadn't adjusted as new store locations were added.</p>
+              <p class="card__label">Tools</p>
+              <ul class="tag-list">
+                <li class="tag">Python</li><li class="tag">SQL</li>
+              </ul>
+              <p class="card__label">Deliverables</p>
+              <ul class="tag-list">
+                <li class="tag tag--outline">Routing model</li><li class="tag tag--outline">Cost report</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Inventory Waste Reduction Analysis</h3>
+              <p class="card__desc">Traced where perishable stock was being written off and why.</p>
+              <p class="card__label">Business problem</p>
+              <p class="card__text">Write-off costs were rising, but nobody had broken the losses down by supplier, route, or storage location.</p>
+              <p class="card__label">Tools</p>
+              <ul class="tag-list">
+                <li class="tag">Power BI</li><li class="tag">SQL</li>
+              </ul>
+              <p class="card__label">Deliverables</p>
+              <ul class="tag-list">
+                <li class="tag tag--outline">Loss dashboard</li><li class="tag tag--outline">Recommendations memo</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER / CONTACT
+       ============================================================ -->
+  <footer id="contact" class="footer">
+    <div class="container footer__grid">
+      <div>
+        <p class="footer__name">Nicole Kutswa</p>
+        <p class="footer__tagline">Data Analyst · Data Scientist · SOC Analyst</p>
+      </div>
+
+      <div class="footer__contact">
+        <!-- Replace with your real contact email -->
+        <a href="mailto:nicolekutswa@gmail.com">nicolekutswa@gmail.com</a>
+        <a href="https://www.linkedin.com/in/nicole-kutswa/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/nicole-kutswa" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>&copy; <span id="year"></span> Nicole Kutswa. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
