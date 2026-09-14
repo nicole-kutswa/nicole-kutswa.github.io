@@ -130,6 +130,67 @@ button:focus-visible,
   border-color: var(--border);
 }
 .btn--outline:hover { border-color: var(--primary); color: var(--primary); }
+/* ======================================================================
+   PROJECT LINKS
+   Compact CTA designed specifically for project cards.
+   ====================================================================== */
+
+.project-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+
+  margin-top: 22px;
+  padding: 9px 15px;
+
+  background: transparent;
+  color: var(--primary);
+
+  border: 1px solid rgba(10, 102, 194, 0.28);
+  border-radius: var(--radius-sm);
+
+  font-family: var(--font-body);
+  font-size: 0.84rem;
+  font-weight: 600;
+  line-height: 1;
+
+  transition:
+    background var(--transition),
+    color var(--transition),
+    border-color var(--transition),
+    transform var(--transition),
+    box-shadow var(--transition);
+}
+
+.project-btn span {
+  font-size: 0.95rem;
+  line-height: 1;
+  transition: transform var(--transition);
+}
+
+.project-btn:hover {
+  background: var(--primary);
+  color: var(--white);
+  border-color: var(--primary);
+
+  transform: translateY(-1px);
+  box-shadow: 0 3px 10px rgba(10, 102, 194, 0.16);
+}
+
+.project-btn:hover span {
+  transform: translate(2px, -2px);
+}
+
+.project-btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.project-btn:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 3px;
+}
 
 /* ==========================================================================
    HEADER / NAV
@@ -402,7 +463,21 @@ button:focus-visible,
   border-radius: var(--radius);
   padding: 26px;
   box-shadow: var(--shadow-sm);
-  transition: box-shadow var(--transition), transform var(--transition), border-color var(--transition);
+
+  display: flex;
+  flex-direction: column;
+
+  transition:
+    box-shadow var(--transition),
+    transform var(--transition),
+    border-color var(--transition);
+}
+.project-btn {
+  align-self: flex-start;
+  margin-top: auto;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
 }
 .card:hover {
   box-shadow: var(--shadow-md);
